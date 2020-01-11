@@ -7,7 +7,7 @@ Cross-platform mobile fridge manager and recipe recommender based on Flutter and
 
 1. [Database design](https://ondras.zarovi.cz/sql/demo/)
 
-![img](database.JPG)
+![img](database_design.JPG)
 
 ### Flask Setup
 
