@@ -17,6 +17,21 @@ Cross-platform mobile fridge manager and recipe recommender based on Flutter and
 
 Resources will use HTTP methods as follows:
 
+| HTTP Method | URI                                                               | Action                                                  |
+|-------------|-------------------------------------------------------------------|---------------------------------------------------------|
+| GET         | http://[hostname]/recommender/users/[user_id]                     | Retrieve a user                                         |
+| POST        | http://[hostname]/recommender/users                               | Create a new user                                       |
+| PUT         | http://[hostname]/recommender/users/[user_id]                     | Update user information                                 |
+| DELETE      | http://[hostname]/recommender/users/[user_id]                     | Delete an existing user                                 |
+|             |                                                                   |                                                         |
+| GET         | http://[hostname]/recommender/ingredients/[ingredient_id]         | Retrieve an ingredient                                  |
+| GET         | http://[hostname]/recommender/ingredients/search_key/[search_key] | Retrieve list of ingredients that begin with search key |
+| GET         | http://[hostname]/recommender/ingredients/user_id/[user_id]       | Retrieve list of ingredients that the user has          |
+| PUT         | http://[hostname]/recommender/ingredients/user_id/[user_id]       | Update list of ingredients that the user has            |
+|             |                                                                   |                                                         |
+| GET         | http://[hostname]/recommender/recipes/[recipe_id]                 | Retrieve a recipe                                       |
+| GET         | http://[hostname]/recommender/recipes/search_key/[search_key]     | Retrieve list of recipes that begin with search key     |
+| GET         | http://[hostname]/recommender/recipes/user_id/[user_id]           | Retrieve list of recipes that the user can make         |
 
 ### Sample Recipes
 
