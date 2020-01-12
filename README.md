@@ -15,23 +15,13 @@ Cross-platform mobile fridge manager and recipe recommender based on Flutter and
 2. [Grinberg's Flask guide (Crash Course)](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask?fbclid=IwAR10kkkJNCcgVAIHkaDZKdXq3yL1lP8kGykt3466kT61olZmhvz6wjoBiNY)
 3. [Grinberg's Flask guide (Mega Tutorial)](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 
-Users resource will use HTTP methods as follows:
+Resources will use HTTP methods as follows:
 
-Ingredients:
-
-| HTTP Method | URI                                                               | Action                                                  |
-|-------------|-------------------------------------------------------------------|---------------------------------------------------------|
-| GET         | http://[hostname]/recommender/api/1.0/ingredients/[search_key]    | Retrieve list of ingredients that begin with search key |
-| GET         | http://[hostname]/recommender/api/1.0/ingredients/[ingredient_id] | Retrieve an ingredient                                  |
-| GET         | http://[hostname]/recommender/api/1.0/ingredients/[user_id]       | Retrieve list of ingredients that the user has          |
-| GET         | http://[hostname]/recommender/api/1.0/ingredients/[recipe_id]     | Retrieve list of ingredients that recipe requires       |
-
-Recipes:
-
-| HTTP Method | URI                                                            | Action                                                  |
-|-------------|----------------------------------------------------------------|---------------------------------------------------------|
-| GET         | http://[hostname]/recommender/api/1.0/recipes/[search_key]     | Retrieve list of recipes that begin with search key     |
-| GET         | http://[hostname]/recommender/api/1.0/recipes/[recipe_id]      | Retrieve a recipe                                       |
+| HTTP Method | URI                                                           | Action                                                  |
+|-------------|---------------------------------------------------------------|---------------------------------------------------------|
+| GET         | http://[hostname]/recommender/ingredients/[ingredient_id]     | Retrieve an ingredient                                  |
+| GET         | http://[hostname]/recommender/ingredients/search/[search_key] | Retrieve list of ingredients that begin with search key |
+| GET         | http://[hostname]/recommender/ingredients/user/[user_id]      | Retrieve list of ingredients that the user has          |
 
 ### Sample Recipes
 
