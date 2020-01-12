@@ -33,8 +33,18 @@ Resources will use HTTP methods as follows:
 | GET         | http://[hostname]/recommender/recipes/search_key/[search_key]     | Retrieve list of recipes that begin with search key     |
 | GET         | http://[hostname]/recommender/recipes/user_id/[user_id]           | Retrieve list of recipes that the user can make         |
 
-### Sample Recipes
+### Sample Recipes 🍳
 
+1. [Kimchi Fried Rice](https://mykoreankitchen.com/kimchi-fried-rice/)
+2. [Korean Braised Potatoes](https://mykoreankitchen.com/gamja-jorim-korean-braised-potatoes/)
+3. [Egg Fried Rice](https://mykoreankitchen.com/breakfast-egg-fried-rice/)
+4. [Korean BBQ Beef](https://mykoreankitchen.com/bulgogi-korean-bbq-beef/)
+5. [Korean Seaweed Soup](https://mykoreankitchen.com/korean-seaweed-soup-miyeok-guk/)
+6. [Korean Beef Stew](https://mykoreankitchen.com/korean-beef-stew/)
+7. [Kimbab](https://mykoreankitchen.com/korean-beef-stew/)
+8. [Spicy Rice Cake](https://mykoreankitchen.com/tteokbokki-spicy-rice-cakes/)
+9. [Spicy Korean Chicken Stew](https://mykoreankitchen.com/spicy-korean-chicken-stew/)
+10. [Korean Egg Roll](https://mykoreankitchen.com/korean-egg-roll-gyeran-mari/)
 
 ## Frontend
 
