@@ -15,6 +15,15 @@ Cross-platform mobile fridge manager and recipe recommender based on Flutter and
 2. [Grinberg's Flask guide (Crash Course)](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask?fbclid=IwAR10kkkJNCcgVAIHkaDZKdXq3yL1lP8kGykt3466kT61olZmhvz6wjoBiNY)
 3. [Grinberg's Flask guide (Mega Tutorial)](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 
+Our resources will use HTTP methods as follows:
+
+| HTTP Method | URI                                                       | Action                   |
+|-------------|-----------------------------------------------------------|--------------------------|
+| GET         | http://[hostname]/recommender/api/1.0/recipes             | Retrieve list of recipes |
+| GET         | http://[hostname]/recommender/api/1.0/recipes/[recipe_id] | Retrieve a recipe        |
+|             |                                                           |                          |
+
+
 ## Frontend
 
 ### Flutter
