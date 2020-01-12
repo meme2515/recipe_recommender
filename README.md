@@ -21,7 +21,8 @@ Our resources will use HTTP methods as follows:
 |-------------|-----------------------------------------------------------|--------------------------|
 | GET         | http://[hostname]/recommender/api/1.0/recipes             | Retrieve list of recipes |
 | GET         | http://[hostname]/recommender/api/1.0/recipes/[recipe_id] | Retrieve a recipe        |
-|             |                                                           |                          |
+
+### Sample Recipes
 
 
 ## Frontend
