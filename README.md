@@ -17,10 +17,12 @@ Cross-platform mobile fridge manager and recipe recommender based on Flutter and
 
 Our resources will use HTTP methods as follows:
 
-| HTTP Method | URI                                                       | Action                   |
-|-------------|-----------------------------------------------------------|--------------------------|
-| GET         | http://[hostname]/recommender/api/1.0/recipes             | Retrieve list of recipes |
-| GET         | http://[hostname]/recommender/api/1.0/recipes/[recipe_id] | Retrieve a recipe        |
+| HTTP Method | URI                                                            | Action                                                  |
+|-------------|----------------------------------------------------------------|---------------------------------------------------------|
+| GET         | http://[hostname]/recommender/api/1.0/recipes/[search_key]     | Retrieve list of recipes that begin with search key     |
+| GET         | http://[hostname]/recommender/api/1.0/recipes/[recipe_id]      | Retrieve a recipe                                       |
+| GET         | http://[hostname]/recommender/api/1.0/ingredients/[search_key] | Retrieve list of ingredients that begin with search key |
+| GET         | http://[hostname]/recommender/api/1.0/ingredients/[user_id]    | Retrieve list of ingredients that the user has          |
 
 ### Sample Recipes
 
