@@ -33,7 +33,7 @@ Resources will use HTTP methods as follows:
 | GET         | http://[hostname]/recommender/recipes/search_key/[search_key]     | Retrieve list of recipes that begin with search key     |
 | GET         | http://[hostname]/recommender/recipes/user_id/[user_id]           | Retrieve list of recipes that the user can make         |
 
-### Sample Recipes 🍳
+### Sample Recipes (from [My Korean Kitchen](https://mykoreankitchen.com)) 🍳
 
 1. [Kimchi Fried Rice](https://mykoreankitchen.com/kimchi-fried-rice/)
 2. [Korean Braised Potatoes](https://mykoreankitchen.com/gamja-jorim-korean-braised-potatoes/)
